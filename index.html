@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="password.js" defer></script>
+    <title>Odin Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img id="norse" src="assets/odin-lined.png" alt="bongo">
+            <span class="odin">ODIN</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="quote">
+            <header>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up to get started. <br><strong>You know you want to.</strong></header>
+        </div>
+        <form action="#" method="post">
+            <fieldset>
+                <h3>Let's Do this!</h3>
+                <div class="formc">
+                    <div class="leftc">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                        <label for="first_pass">Password</label>
+                        <input type="password" id="first_pass" name="first_pass" placeholder="min 6 characters" min="6">
+                    </div>
+                    <div class="rightc">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                        <label for="pn">Phone Number</label>
+                        <input type="text" id="pn" name="pn">
+                        <label for="last_pass">Confirm Password</label>
+                        <input type="password" id="last_pass" name="last_pass" placeholder="Re-Enter Password" min="6">
+                    </div>
+                </div>
+            </fieldset>
+            <button id="button">Create Account</button>
+            <p>Already have an Account?<a href="https://www.youtube.com/watch?v=Pp3vekoSpcg" target="_blank">
+                    Log in</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
